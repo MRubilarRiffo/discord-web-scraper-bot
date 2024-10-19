@@ -1,0 +1,18 @@
+{
+  "name": "discord-web-scraper-bot",
+  "version": "1.0.0",
+  "description": "Bot de Discord en Node.js que obtiene datos automáticamente desde una página web y los envía a un canal específico. Utiliza axios para realizar peticiones HTTP y discord.js para interactuar con la API de Discord. Ideal para automatizar la notificación de cambios, precios o cualquier información relevante en tiempo real.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  }
+}
